@@ -34,6 +34,8 @@ public enum JWheelDrive {
     All = 2
 }
  
+
+
 [System.Serializable]
 public class CarWheelParams
 {
@@ -419,7 +421,7 @@ public class JCarModified : MonoBehaviour {
             }
         }
     }
- 
+ /*
     public void OnGUI() {
             float speed = rigidbody.velocity.magnitude;
  
@@ -429,5 +431,5 @@ public class JCarModified : MonoBehaviour {
             GUILayout.BeginArea(new Rect(Screen.width -250 - 32, 32, 250, 40), GUI.skin.window);
             GUILayout.Label(msg);
             GUILayout.EndArea();
-    }
+    }*/
 }
