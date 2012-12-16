@@ -6,7 +6,7 @@ function Start () {
 
 }
 
-function Update () {
+function FixedUpdate () {
 	if (Input.GetKey(KeyCode.I)) {
 		rigidbody.AddTorque(Vector3.right * force);
 	}
